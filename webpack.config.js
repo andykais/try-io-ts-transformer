@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
   },
-  resolve: { extensions: ['.ts'] },
+  resolve: { extensions: ['.ts', '.js'] },
   module: {
     rules: [
       {
